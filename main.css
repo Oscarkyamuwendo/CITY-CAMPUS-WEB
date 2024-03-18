@@ -1,0 +1,188 @@
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 24px;
+ margin-left: 15px;}
+ .address{
+  margin-left: 30px;
+ }
+ .body {
+ 
+
+  
+ }
+
+.header {
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  background-color:rgb(58, 25, 2);
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+
+}
+.school-budge-name-motto {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  
+
+}
+.school-budge {
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 40px;
+  
+}
+.budge-area {
+  display: inline-block;
+  height: 250px;
+
+}
+.school-name-motto {
+  display: grid;
+  height: 300px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.school-name-area {
+  height: 150px;
+  min-width: 800px;
+margin-bottom: 10px;
+
+
+}
+.school-name{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left
+  
+}
+.school-motto-area {
+  height: 50px;
+  text-align: center;
+
+}
+.school-motto {
+  display: inline-block;
+  background-color: azure;
+  background-size: 40px;
+  font-size: 20px;
+  margin: 0;
+  
+
+}
+.navigation-area {
+  display: flex;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(123, 65, 7);
+ 
+}
+.login-link, .about-link, .home-link, .vocation-link, .academics-link, .music-link {
+margin: left 0;
+text-align: left;
+color: white;
+border-color: white;
+border-style: solid;
+border-top: none;
+border-bottom: none;
+padding-left: 10px;
+padding-right: 10px;
+margin-right: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search-button {
+width: 24px;
+height: 21px;
+margin-left: -4px;
+margin-bottom: -1px;
+
+}
+
+.search-box {
+display: flex;
+
+}
+
+.search-icon {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+
+}
+.summary-table {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-evenly
+
+}
+.su-area, .music-area, .vocation-area, .academic-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  width: 300px;
+}
+.su-heading, .music-heading, .vocation-heading, .academic-heading {
+  display: flex;
+  height: 30px;
+  font-family: roboto;
+  background-color: rgb(58, 25, 2);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  
+}
+.picture1-area, .picture2-area, .picture3-area, .picture4-area {
+  height: 250px;
+  object-fit: contain;
+}
+
+.academic-pic, .vocation-pic, .music-pic, .su-video {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+  
+  
+.pic-caption-area {
+  display: flex;
+  height: 10px;
+  margin-top: 0px;
+  font-style: italic;
+  font-size: small;
+  justify-content: center;
+  font-weight: bold;
+  color: rgb(165, 7, 7);
+  
+  
+
+
+  
+}
+.pic-info-area {
+  height:170px;
+  font-family: sans-serif;
+  
+}
+      
+.footer {
+  display:flex;
+  justify-content: space-evenly;
+  background-color:rgb(58, 25, 2);
+  color: aquamarine;
+  margin-bottom:0;
+  align-content: end;
+ 
+}
+
+
+   
