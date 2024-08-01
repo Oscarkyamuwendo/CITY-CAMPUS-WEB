@@ -6,7 +6,7 @@ p{
   margin-left: 30px;
  }
  .body {
- 
+ background-color: beige;
 
   
  }
@@ -89,12 +89,12 @@ margin: left 0;
 text-align: left;
 color: white;
 border-color: white;
-border-style: solid;
+border-style:solid;
 border-top: none;
 border-bottom: none;
 padding-left: 10px;
 padding-right: 10px;
-margin-right: 20px;
+margin-right: 30px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -174,15 +174,21 @@ display: flex;
   
 }
       
-.footer {
+.footer_area {
   display:flex;
   justify-content: space-evenly;
   background-color:rgb(58, 25, 2);
-  color: aquamarine;
+  color: rgb(255, 255, 255);
   margin-bottom:0;
   align-content: end;
  
 }
+.footer_heads {
+  color: rgb(222, 218, 92);
 
+}
+.footer_text {
+  font-size: small;
+}
 
    
